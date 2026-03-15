@@ -169,22 +169,7 @@ cd queryhive
 npm install
 ```
 
-### 3. Configure Environment Variables
 
-```bash
-cp .env.example .env.local
-```
-
-Open `.env.local` and paste your Firebase config values:
-
-```env
-VITE_FIREBASE_API_KEY=AIzaSy...
-VITE_FIREBASE_AUTH_DOMAIN=your-project.firebaseapp.com
-VITE_FIREBASE_PROJECT_ID=your-project
-VITE_FIREBASE_STORAGE_BUCKET=your-project.appspot.com
-VITE_FIREBASE_MESSAGING_SENDER_ID=123456789
-VITE_FIREBASE_APP_ID=1:123456789:web:abc123
-```
 
 ### 4. Deploy Firebase Rules & Indexes
 
