@@ -8,8 +8,9 @@ dist/
 build/
 
 # Environment variables — NEVER commit these
-.env
+.env*
 .env.local
+.env.example
 .env.development.local
 .env.test.local
 .env.production.local
